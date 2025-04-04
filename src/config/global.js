@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Principios de buenas prácticas en ganadería bovina de carne',
+    Description:
+      'El componente formativo aborda la implementación de Buenas Prácticas Ganaderas (BPG) en la producción de carne bovina, destacando aspectos como bienestar animal, bioseguridad, trazabilidad y sostenibilidad. Describe metodologías, cronogramas, protocolos y registros necesarios para garantizar la calidad e inocuidad del producto. Además, presenta normativas vigentes, gestión documental y estrategias de evaluación para la certificación ganadera.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,48 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Plan de Implementación de BPG',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Objetivos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Cronogramas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Metodologías de desarrollo y programación',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Concepto, procedimiento y metodología',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Protocolos y registros: concepto, diseños y modelos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Gestión documental: concepto y técnicas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Comunicación y gestión de personal',
         desarrolloContenidos: true,
       },
     ],
