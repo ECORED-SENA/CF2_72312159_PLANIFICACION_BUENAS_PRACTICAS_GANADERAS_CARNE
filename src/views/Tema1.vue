@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Plan de Implementación de BPG
-    p Las Buenas Prácticas Ganaderas (BPG) son un conjunto de procedimientos y normativas que garantizan una producción pecuaria segura, sostenible y controlada. Para el 2025, estas prácticas han evolucionado con el uso de tecnología, digitalización de datos y regulaciones internacionales que refuerzan su aplicación en la producción primaria.
+    p(data-aos="fade-down") Las Buenas Prácticas Ganaderas (BPG) son un conjunto de procedimientos y normativas que garantizan una producción pecuaria segura, sostenible y controlada. Para el 2025, estas prácticas han evolucionado con el uso de tecnología, digitalización de datos y regulaciones internacionales que refuerzan su aplicación en la producción primaria.
     .row.mb-4
-      .col-12
+      .col-12(data-aos="fade-right")
         .p-3.bg-c4
           .row.align-items-center
             .col-md-auto.mb-3.mb-md-0
@@ -16,7 +16,7 @@
                 img(src="@/assets/curso/tema1/img1.svg", alt="", style="width: 100px").m-auto
             .col-md
               p.mb-0 El objetivo de este sistema de aseguramiento es garantizar la inocuidad en la producción pecuaria, reduciendo riesgos biológicos, químicos y físicos en la gestión del ganado y la cadena productiva. Su correcta implementación:
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
       )
@@ -49,7 +49,7 @@
                     img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
                 .col
                   h3.mb-0 Elementos clave en la implementación del BPG
-          .row.justify-content-center.mb-4
+          .row.justify-content-center.mb-4(data-aos="fade-down")
             .col-10.col-md-6.col-lg-3.mb-4.mb-lg-0
               .p-4.h-100.bg-c9.shadow
                 figure.mb-3
@@ -75,7 +75,7 @@
                 p.text-center.mb-3 #[b Bienestar animal]
                 p.text-center.mb-0 Estrategias alineadas con normativas globales.
           .row.justify-content-center
-            .col-lg-10
+            .col-lg-10(data-aos="fade-right")
               .p-4.bg-c10
                 p.mb-0 Este enfoque actualizado permite a las empresas ganaderas cumplir con los estándares de calidad y proyectarse como un sector competitivo y sostenible.
     .row.mb-4.ms-0
@@ -86,7 +86,7 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Responsabilidades del producto ganadero
-    p.mb-4 El productor debe garantizar la seguridad alimentaria, asegurando que los productos no representen riesgos parala salud en las distintas etapas de comercialización. Para ello, en Colombia existen entidades encargadas de la regulación y supervisión de las BPG:
+    p.mb-4(data-aos="fade-right") El productor debe garantizar la seguridad alimentaria, asegurando que los productos no representen riesgos parala salud en las distintas etapas de comercialización. Para ello, en Colombia existen entidades encargadas de la regulación y supervisión de las BPG:
     .row.bg-c11
       .col-12
         .p-5
@@ -121,7 +121,7 @@
     .row.bg-c12
       .col-12
         .px-5
-          p.mb-4 El propósito del plan de BPG es garantizar que los predios interesados cumplan la normativa, promoviendo la competitividad en el mercado. Para ello, se establecen los siguientes objetivos:
+          p.mb-4(data-aos="fade-right") El propósito del plan de BPG es garantizar que los predios interesados cumplan la normativa, promoviendo la competitividad en el mercado. Para ello, se establecen los siguientes objetivos:
           .row.align-items-center.mb-4
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               figure
@@ -200,17 +200,17 @@
                       .py-2.px-3.bg-c14
                         p.text-center.mb-0 #[b Almacenar insumo]
                   p.text-center.mb-0 Garantizar el cumplimiento de normativas de almacenamiento.
-          p La participación de entidades como el ICA y el INVIMA es clave para supervisar la implementación de estas prácticas a lo largo de la cadena productiva.
+          p(data-aos="fade-down") La participación de entidades como el ICA y el INVIMA es clave para supervisar la implementación de estas prácticas a lo largo de la cadena productiva.
     Separador
     #t_1_2
     .titulo-segundo.color-acento-contenido
       h2 1.2 Cronograma de Implementación
-    p.mb-4 Los cronogramas son una herramienta esencial para la planificación y ejecución de las actividades en la empresa ganadera. Su correcta implementación permite:
+    p.mb-4(data-aos="fade-right") Los cronogramas son una herramienta esencial para la planificación y ejecución de las actividades en la empresa ganadera. Su correcta implementación permite:
     .row.mb-4
-      .col-lg-auto.pe-lg-0.mb-4.mb-lg-0
+      .col-lg-auto.pe-lg-0.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img9.png', alt='', style='width: 300px').m-auto
-      .col-lg.bg-c15
+      .col-lg.bg-c15(data-aos="fade-left")
         .row.h-100.align-items-center
           .col-12
             .p-4
@@ -234,7 +234,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .row.align-items-center
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
             p Con el avance de la digitalización, los cronogramas han evolucionado mediante plataformas automatizadas de gestión y aplicaciones de monitoreo en tiempo real. Estas herramientas permiten un seguimiento preciso de las actividades, considerando las condiciones climáticas y las exigencias del mercado.
             .row.align-items-center
               .col-auto.d-none.d-md-block
@@ -242,19 +242,19 @@
                   img(src='@/assets/curso/tema1/img16.svg', alt='', style='width: 75px').m-auto
               .col
                 p.mb-0 La responsabilidad de elaborar y divulgar el cronograma recae en el propietario o administrador de la empresa, asegurando que todo el  equipo de trabajo lo conozca y cumpla con las actividades programadas.
-          .col-lg-5
+          .col-lg-5(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img10.png', alt='', style='width: 500px').m-auto
         hr.bg-c16
-    p.mb-4 Este video presenta la importancia de un cronograma en la implementación de buenas prácticas ganaderas. A lo largo del contenido, se explican sus beneficios, los pasos para su elaboración y su papel en la certificación de ganaderías.
+    p.mb-4(data-aos="fade-down") Este video presenta la importancia de un cronograma en la implementación de buenas prácticas ganaderas. A lo largo del contenido, se explican sus beneficios, los pasos para su elaboración y su papel en la certificación de ganaderías.
     figure
-      .video
+      .video(data-aos="fade-right")
         iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=vGNWclBzJhXFu9s1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_1_3
     .titulo-segundo.color-acento-contenido
       h2 1.3 Metodologías de desarrollo y programación
-    p.mb-5 En la implementación de Buenas Prácticas Ganaderas (BPG), es fundamental contar con metodologías que permitan evaluar y controlar los procesos. Una de las herramientas más utilizadas en auditorías de calidad es la #[b lista de chequeo].
+    p.mb-5(data-aos="fade-right") En la implementación de Buenas Prácticas Ganaderas (BPG), es fundamental contar con metodologías que permitan evaluar y controlar los procesos. Una de las herramientas más utilizadas en auditorías de calidad es la #[b lista de chequeo].
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
@@ -263,9 +263,9 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Lista de chequeo
-    p.mb-4 La lista de chequeo es un formato impreso o digital que se diligencia como medio de información para verificar el cumplimiento de ciertos puntos o situaciones de control. Su función principal es identificar fallos en los procedimientos y es el primer paso en una auditoría, facilitando su análisis y la búsqueda de soluciones. Para elaborar una lista de chequeo, es necesario establecer ciertos parámetros y formular preguntas orientadoras que permitan evaluar cada aspecto de la auditoría. Algunas preguntas clave incluyen:
+    p.mb-4(data-aos="fade-right") La lista de chequeo es un formato impreso o digital que se diligencia como medio de información para verificar el cumplimiento de ciertos puntos o situaciones de control. Su función principal es identificar fallos en los procedimientos y es el primer paso en una auditoría, facilitando su análisis y la búsqueda de soluciones. Para elaborar una lista de chequeo, es necesario establecer ciertos parámetros y formular preguntas orientadoras que permitan evaluar cada aspecto de la auditoría. Algunas preguntas clave incluyen:
     .row.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         ol.lista-ol--cuadro.lista-ol--separador
           li.d-flex
             .lista-ol--cuadro__vineta
@@ -292,11 +292,11 @@
               span.txt-c1 5
             |
             p.mb-0 ¿Las medidas correctivas se han implementado y documentado adecuadamente?
-      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img11.png', alt='', style='width: 500px').m-auto
     .row.mb-5
-      .col-12
+      .col-12(data-aos="fade-down")
         .p-3.bg-c4
           .row.align-items-center
             .col-md-auto.mb-3.mb-md-0
@@ -305,10 +305,10 @@
             .col-md
               p.mb-0 El uso de listas de chequeo facilita el control y monitoreo de las #[b Buenas Prácticas Ganaderas], garantizando que los procedimientos cumplan con los estándares de calidad y seguridad requeridos.
     .row.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img12.png', alt='', style='width: 500px').m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p #[b Lista de chequeo requisitos para la gestión sanitaria]
         p Se invita a revisar el documento Lista de chequeo requisitos para la gestión sanitaria, el cual contiene una guía estructurada para verificar el cumplimiento de normativas en la gestión sanitaria, bioseguridad y bienestar animal. Este material permite evaluar aspectos clave como sanidad animal, identificación, bioseguridad, uso de medicamentos, alimentación, saneamiento, bienestar animal y requisitos del personal.
         .row
@@ -327,16 +327,16 @@
           .col
             h3.mb-0 Parámetros en Buenas Prácticas Ganaderas (BPG)
     .row.mb-4
-      .col-lg-auto.pe-lg-0.d-none.d-lg-block
+      .col-lg-auto.pe-lg-0.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img13.png', alt='', style='width: 400px').m-auto
-      .col-lg.bg-c17
+      .col-lg.bg-c17(data-aos="fade-left")
         .row.h-100.align-items-center
           .col-12
             .p-4
               p.mb-0 Los #[b parámetros] permiten #[b clasificar, medir y determinar] las condiciones de un proceso en sus diferentes etapas. Funcionan como una herramienta de evaluación que ayuda a identificar variables representativas y proporciona un pronóstico sobre el estado del sistema analizado. A continuación, se detallan algunos aspectos clave relacionados con los parámetros en las Buenas Prácticas Ganaderas.
     .row.mb-4
-      .col-lg-6.bg-c18
+      .col-lg-6.bg-c18(data-aos="fade-right")
         .p-4.p-lg-5
           .row.align-items-center.mb-3
             .col-auto
@@ -345,7 +345,7 @@
             .col
               p.fs-4.mb-0 #[b Diagnóstico de áreas de trabajo]
           p.mb-0 Para identificar los parámetros dentro de un proceso, se realiza un #[b diagnóstico del área de trabajo], determinando los puntos con mayor concentración de actividades. Este análisis permite enfocar los esfuerzos en las áreas críticas del sistema productivo.
-      .col-lg-6.bg-c19
+      .col-lg-6.bg-c19(data-aos="fade-left")
         .p-4.p-lg-5
           .row.align-items-center.mb-3
             .col-auto
@@ -354,7 +354,7 @@
             .col
               p.fs-4.mb-0 #[b Responsables del proceso]
           p.mb-0 En la implementación de las Buenas Prácticas Ganaderas, diferentes actores intervienen en el seguimiento y control de los parámetros. Cada uno cumple funciones específicas que garantizan el cumplimiento de los estándares de calidad y seguridad.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img14.png', alt='', style='width: 450px').m-auto
@@ -380,12 +380,12 @@
               p.text-center #[b Administradores de la finca o predio]
               p.text-center.mb-0 Realizan la revisión interna para garantizar el cumplimiento de las BPG.
     .row.mb-4
-      .col-auto
+      .col-auto(data-aos="fade-right")
         .py-2.px-3.bg-c17
           p.mb-0 #[b Verificación por entidades competentes]
-    p.mb-4 Después de la revisión interna, las certificaciones de BPG son verificadas por entidades regulatorias como el ICA. Una vez aprobadas, los productos pueden ser comercializados y distribuidos al consumidor final.
+    p.mb-4(data-aos="fade-left") Después de la revisión interna, las certificaciones de BPG son verificadas por entidades regulatorias como el ICA. Una vez aprobadas, los productos pueden ser comercializados y distribuidos al consumidor final.
     .row.mb-5
-      .col-lg-6.bg-c21.mb-4.mb-lg-0
+      .col-lg-6.bg-c21.mb-4.mb-lg-0(data-aos="fade-right")
         .row.h-100.align-items-center
           .col-12
             .p-4
@@ -430,15 +430,15 @@
                   i.fas.fa-arrow-circle-right
                   |
                   p.mb-0 Trazabilidad.
-      .col-lg-6.ps-lg-0
+      .col-lg-6.ps-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img17.png', alt='', style='width: 620px').m-auto
-    .row.mb-4
+    .row.mb-4(data-aos="fade-down")
       .col-auto
         .py-2.px-3.bg-c17
           p.mb-0 #[b Análisis de parámetros]
-    p.mb-4 Una vez identificados los puntos críticos, se realiza un #[b análisis detallado] de los parámetros generados en cada área. Esto permite:
-    .row.justify-content-center.mb-5
+    p.mb-4(data-aos="fade-right") Una vez identificados los puntos críticos, se realiza un #[b análisis detallado] de los parámetros generados en cada área. Esto permite:
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0
         .p-4.bg-c22.h-100
           figure.mb-3
@@ -455,11 +455,11 @@
             img(src='@/assets/curso/tema1/img20.svg', alt='', style='width: 100px').m-auto
           p.text-center.mb-0 Identificar oportunidades de optimización en la producción ganadera.
     .row.mb-4
-      .col-auto
+      .col-auto(data-aos="fade-down")
         .py-2.px-3.bg-c17
           p.mb-0 #[b Evaluación de variables en la ganadería de carne]
     .row.mb-5
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p Las variables para evaluar se determinan según el área de proceso. Cada parámetro se gestiona de manera independiente, pero con un objetivo en común: #[b garantizar la inocuidad y calidad del producto final para los consumidores].
         .row
           .col-12
@@ -470,7 +470,7 @@
                     img(src='@/assets/curso/tema1/img21.svg', alt='', style='width: 100px').m-auto
                 .col-md
                   p.mb-0 Un control adecuado de los parámetros permite optimizar la producción, reducir riesgos y cumplir con los estándares de calidad exigidos en el sector ganadero.
-      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img18.png', alt='', style='width: 350px').m-auto
     .row.mb-4.ms-0
@@ -481,9 +481,9 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Metodologías en Buenas Prácticas Ganaderas (BPG)
-    p.mb-4 Las metodologías clave utilizadas en las Buenas Prácticas Ganaderas (BPG) son fundamentales para organizar y optimizar la producción ganadera. El siguiente video explica cómo se aplican estas metodologías a lo largo del proceso productivo, destacando las fases esenciales que garantizan una gestión eficiente y alineada con la normativa vigente.
+    p.mb-4(data-aos="fade-right") Las metodologías clave utilizadas en las Buenas Prácticas Ganaderas (BPG) son fundamentales para organizar y optimizar la producción ganadera. El siguiente video explica cómo se aplican estas metodologías a lo largo del proceso productivo, destacando las fases esenciales que garantizan una gestión eficiente y alineada con la normativa vigente.
     figure.mb-5
-      .video
+      .video(data-aos="fade-right")
         iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=vGNWclBzJhXFu9s1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
@@ -493,12 +493,12 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Estrategias de evaluación de la implementación de BPG
-    p.mb-4 La estrategia de evaluación es una herramienta clave para realizar un monitoreo continuo del proceso productivo. Para que sea efectiva, debe contar con:
+    p.mb-4(data-aos="fade-right") La estrategia de evaluación es una herramienta clave para realizar un monitoreo continuo del proceso productivo. Para que sea efectiva, debe contar con:
     .row.bg-c24.mb-5
       .col-12
         .px-5
           .row.justify-content-center.mb-4
-            .col-lg-10
+            .col-lg-10(data-aos="fade-right")
               .row
                 .col-lg-6.bg-c25.mb-4.mb-lg-0
                   .row.h-100.align-items-center
@@ -529,11 +529,11 @@
                   figure
                     img(src='@/assets/curso/tema1/img20.png', alt='', style='width: 440px').m-auto
           .row.mb-4
-            .col-12
+            .col-12(data-aos="fade-down")
               .p-4.bg-c26
                 p.mb-0 El propósito principal de esta estrategia es garantizar el cumplimiento de los indicadores exigidos por los entes de control, alcanzando las metas propuestas que benefician tanto a los productores como a los consumidores. Esto contribuye a ofrecer productos de calidad en #[b óptimas condiciones sanitarias y comerciales].
           .row.justify-content-center.align-items-center
-            .col-lg-7
+            .col-lg-7(data-aos="fade-right")
               p #[b Criterios de evaluación]
               p Se invita a leer el documento Criterios de la evaluación, el cual detalla los aspectos fundamentales para la aplicación de estrategias de evaluación en la implementación de las Buenas Prácticas Ganaderas (BPG). En este material, se presentan tablas con puntos de control, criterios de cumplimiento y referencias normativas en áreas clave como sanidad animal, identificación y bioseguridad.
               .row
@@ -543,7 +543,7 @@
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
                       p #[b Anexo.] Criterios de evaluación.
-            .col-lg-3
+            .col-lg-3(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema1/img21.png', alt='', style='width: 300px').m-auto
     .row.mb-4.ms-0
@@ -555,10 +555,10 @@
           .col
             h3.mb-0 Documentación y metas BPG
     .row.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img22.png', alt='', style='width: 490px').m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p La documentación es el proceso de #[b recolección de datos e identificación de información verídica] sobre un tema, con el objetivo de generar nuevo conocimiento. Su principal función es:
         .row
           .col-12
@@ -576,7 +576,7 @@
                   i.fas.fa-arrow-circle-right
                   |
                   p.mb-0 Crear un documento sólido que permita identificar errores, prácticas y registros dentro de una empresa u organización.
-    p.mb-5 En el año 2020, se expidió la #[b Resolución 068167], que establece los requisitos para obtener la #[b certificación en Buenas Prácticas Ganaderas (BPG)] en la producción de carne de bovinos y/o bufalinos.
+    p.mb-5(data-aos="fade-down") En el año 2020, se expidió la #[b Resolución 068167], que establece los requisitos para obtener la #[b certificación en Buenas Prácticas Ganaderas (BPG)] en la producción de carne de bovinos y/o bufalinos.
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
@@ -585,9 +585,9 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Metas en Buenas Prácticas Ganaderas (BPG)
-    p.mb-4 Las metas BPG son un conjunto de prácticas que conducen a resultados específicos en una organización. Estas se plantean en el corto, mediano y largo plazo, mediante acciones concretas que se desarrollan en paralelo con las metas propuestas.
+    p.mb-4(data-aos="fade-right") Las metas BPG son un conjunto de prácticas que conducen a resultados específicos en una organización. Estas se plantean en el corto, mediano y largo plazo, mediante acciones concretas que se desarrollan en paralelo con las metas propuestas.
     .row.mb-4
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .p-4.bg-c27
@@ -607,7 +607,7 @@
                   i.fas.fa-arrow-circle-right
                   |
                   p.mb-0 La consolidación de un sistema productivo competitivo.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .row
           .col-12
             .p-4.bg-c28
@@ -632,10 +632,10 @@
                   |
                   p.mb-0 Recuperar la ganadería de carne.
     .row
-      .col-auto.pe-0.d-none.d-lg-block
+      .col-auto.pe-0.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img23.png', alt='', style='width: 550px')
-      .col.bg-c31
+      .col.bg-c31(data-aos="fade-left")
         .row.h-100.align-items-center
           .col-12
             .p-4

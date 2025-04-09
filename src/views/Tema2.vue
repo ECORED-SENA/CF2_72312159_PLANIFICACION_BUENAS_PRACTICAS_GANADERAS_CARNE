@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Concepto, procedimiento y metodología
@@ -19,10 +19,10 @@
           br
           p Además de cumplir con las exigencias normativas, es fundamental llevar un registro detallado de las actividades de la empresa, garantizando que el producto final sea inocuo y de alta calidad para el consumo humano.
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-auto.mb-3.mb-md-0
+      .col-md-auto.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img1.svg', alt='', style='width: 100px').m-auto
-      .col-md-9
+      .col-md-9(data-aos="fade-left")
         .p-4.bg-c6
           p.mb-0 A continuación, se presentan los aspectos generales relacionados con procedimientos, procesos y registros.
     .row.mb-4.ms-0
@@ -33,9 +33,9 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Procedimientos en BPG
-    p Los procedimientos permiten detallar cada etapa de un proceso y están conformados por una serie de actividades cronológicas llevadas a cabo por el personal encargado.
-    p.mb-4 En el contexto de las BPG, estos procedimientos están orientados a la certificación y garantizan:
-    .row.justify-content-center.mb-4
+    p(data-aos="fade-right") Los procedimientos permiten detallar cada etapa de un proceso y están conformados por una serie de actividades cronológicas llevadas a cabo por el personal encargado.
+    p.mb-4(data-aos="fade-right") En el contexto de las BPG, estos procedimientos están orientados a la certificación y garantizan:
+    .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0
         .p-4.bg-c32.h-100
           figure.mb-3
@@ -61,7 +61,7 @@
               .p-3.bg-c33
                 p.text-center.mb-0 Cumplimiento de estándares sanitarios para exportación de carne bovina.
     .row.mb-5
-      .col-12
+      .col-12(data-aos="fade-right")
         .p-4.bg-c34
           p.text-center.mb-0 La normativa vigente para estos procedimientos es regulada por el Instituto Colombiano Agropecuario (ICA).
     .row.mb-4.ms-0
@@ -72,7 +72,7 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Procesos en BPG
-    p.mb-4 Los procesos en la producción ganadera son una cadena de actividades organizadas para alcanzar una meta o propósito. Estos procesos:
+    p.mb-4(data-aos="fade-right") Los procesos en la producción ganadera son una cadena de actividades organizadas para alcanzar una meta o propósito. Estos procesos:
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img2.png')})`}"
@@ -107,8 +107,8 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Entes de control en BPG
-    p.mb-4 Existen organismos encargados de verificar los estándares de producción y asegurar la calidad del producto final. A continuación, se presentan los principales entes de control en el sector ganadero:
-    .row.justify-content-center.mb-4
+    p.mb-4(data-aos="fade-right") Existen organismos encargados de verificar los estándares de producción y asegurar la calidad del producto final. A continuación, se presentan los principales entes de control en el sector ganadero:
+    .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/img3.png', alt='', style='width: 400px').m-auto
@@ -132,13 +132,13 @@
               p.text-white.mb-0 Organiza y representa el gremio ganadero a nivel nacional, promoviendo el desarrollo del sector.
     .row
       .col-12
-        .p-4.bg-c26
+        .p-4.bg-c26(data-aos="fade-right")
           p.text-center.mb-0 La supervisión por parte de estos entes permite garantizar la seguridad y calidad de la producción ganadera en Colombia, asegurando el cumplimiento de las normativas nacionales e internacionales.
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido
       h2 2.1 Protocolos y registros: concepto, diseños y modelos
-    p.mb-5 Los registros en Buenas Prácticas Ganaderas (BPG) son documentos esenciales que consignan cada actividad realizada en una empresa o establecimiento pecuario. Estos registros permiten asegurar la trazabilidad de los procesos y garantizar que cada etapa de la producción cumple con los estándares de inocuidad, sanidad, bienestar animal y sostenibilidad ambiental.
+    p.mb-5(data-aos="fade-down") Los registros en Buenas Prácticas Ganaderas (BPG) son documentos esenciales que consignan cada actividad realizada en una empresa o establecimiento pecuario. Estos registros permiten asegurar la trazabilidad de los procesos y garantizar que cada etapa de la producción cumple con los estándares de inocuidad, sanidad, bienestar animal y sostenibilidad ambiental.
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
@@ -147,7 +147,7 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 ¿Para qué sirven los registros en BPG?
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-10.col-md-6.col-lg-4.mb-4
         .p-4.bg-c4.h-100
           .row.align-items-center
@@ -196,9 +196,9 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Parámetros clave para llevar registros en BPG
-    p.mb-4 Para garantizar una gestión eficiente de la documentación, se deben establecer ciertos parámetros:
+    p.mb-4(data-aos="fade-right") Para garantizar una gestión eficiente de la documentación, se deben establecer ciertos parámetros:
     .row.mb-4
-      .col-lg-6.order-2.order-lg-1
+      .col-lg-6.order-2.order-lg-1(data-aos="fade-right")
         .row.mb-3
           .col-12
             .p-3.bg-c38
@@ -223,12 +223,12 @@
                   i.fas.fa-arrow-circle-right
                   |
                   p.mb-0 #[b Disponibilidad y accesibilidad:] los registros deben organizarse en archivos físicos o digitales para su consulta en auditorías.
-      .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
+      .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img6.png', alt='', style='width: 580px').m-auto
-    p.mb-4 Los registros deben contener la siguiente información mínima:
+    p.mb-4(data-aos="fade-down") Los registros deben contener la siguiente información mínima:
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
           p.mb-0 #[b Tabla 1.] Elementos clave en la documentación de BPG
         .tabla-a.color-acento-contenido(data-aos="fade-left")
@@ -287,7 +287,7 @@
           .col
             h3.mb-0 Manejo de los registros en BPG
     .row.align-items-center.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p Un adecuado manejo de los registros permite que la empresa ganadera tenga soporte financiero y productivo, asegurando control sobre sus operaciones. Algunos registros clave incluyen:
         ul.lista-ul.mb-0
           li.d-flex
@@ -322,7 +322,7 @@
             i.fas.fa-leaf(style='color: #3D631E')
             |
             p.mb-0 Registro de rotación de animales en potreros y uso de plaguicidas y fertilizantes.
-      .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0
+      .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img7.png', alt='', style='width: 580px').m-auto
     .row.mb-4.ms-0
@@ -333,7 +333,7 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Ejemplo de Registro Sanitario en Ganadería de Carne
-    p.mb-4 Un adecuado manejo de los registros permite que la empresa ganadera tenga soporte financiero y productivo, asegurando control sobre sus operaciones. Algunos registros clave incluyen:
+    p.mb-4(data-aos="fade-down") Un adecuado manejo de los registros permite que la empresa ganadera tenga soporte financiero y productivo, asegurando control sobre sus operaciones. Algunos registros clave incluyen:
     TabsC.color-acento-contenido.mb-5(data-aos="fade-left")
       .p-4.p-lg-5(titulo="Registro sanitario de predio pecuario")
         .row.justify-content-center.align-items-center
@@ -376,7 +376,7 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Ejemplo de registro productivo en ganadería de carne
-    p.mb-4 Este registro documenta la aplicación de medicamentos, cumpliendo con las Buenas Prácticas Ganaderas y normativas sanitarias.
+    p.mb-4(data-aos="fade-down") Este registro documenta la aplicación de medicamentos, cumpliendo con las Buenas Prácticas Ganaderas y normativas sanitarias.
     .row.bg-c11.mb-5
       .col-12
         .p-5
@@ -518,7 +518,7 @@
     figure(data-aos="fade-left").mb-4
       img(src='@/assets/curso/tema2/img5.svg', alt='Formato de registro para la aplicación de medicamentos, vitaminas y vermífugos en ganadería, con espacios para datos de finca, animal, producto y administración.', style='width: 1200px').m-auto
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .p-4.bg-c4
           .row.align-items-center
             .col-md-auto.mb-3.mb-md-0

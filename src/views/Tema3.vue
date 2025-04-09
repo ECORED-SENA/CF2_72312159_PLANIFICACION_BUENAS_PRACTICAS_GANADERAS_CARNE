@@ -2,17 +2,17 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Protocolos y registros: concepto, diseños y modelos
     .row.bg-c39.mb-5
       .col-12
         .px-5
-          p Los protocolos de bioseguridad ganadera son fundamentales porque establecen una orientación clara sobre las actividades necesarias para la crianza, producción, mantenimiento y exportación de productos pecuarios. En Colombia, los estándares productivos en el sector ganadero están regulados por normativas específicas que garantizan la calidad e inocuidad del producto final. 
-          p.mb-5 La normativas clave en bioseguridad ganadera es:
+          p(data-aos="fade-down") Los protocolos de bioseguridad ganadera son fundamentales porque establecen una orientación clara sobre las actividades necesarias para la crianza, producción, mantenimiento y exportación de productos pecuarios. En Colombia, los estándares productivos en el sector ganadero están regulados por normativas específicas que garantizan la calidad e inocuidad del producto final. 
+          p.mb-5(data-aos="fade-right") La normativas clave en bioseguridad ganadera es:
           .row.justify-content-center.mb-5
-            .col-10.col-md-6.col-lg-4.mb-4.mb-md-0
+            .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
               .tarjeta-avatar
                 img(src='@/assets/curso/tema3/img1.svg' alt='AvatarTop')
                 //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -25,7 +25,7 @@
                         .py-2.px-3
                           p.mb-0 #[b Resolución 0773 de 2020]
                     p.text-center.mb-0 Establece las medidas de bioseguridad para el sector pecuario.
-            .col-10.col-md-6.col-lg-4
+            .col-10.col-md-6.col-lg-4(data-aos="fade-left")
               .tarjeta-avatar
                 img(src='@/assets/curso/tema3/img2.svg' alt='AvatarTop')
                 //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -38,16 +38,16 @@
                         .py-2.px-3
                           p.mb-0 #[b Resolución 068167 de 2020]
                     p.text-center.mb-0 Define los requisitos para la generación de Buenas Prácticas Ganaderas (BPG) en la producción de carne de bovinos y bufalinos.
-          p.mb-0 Para obtener la certificación del ICA, es fundamental cumplir con los protocolos descritos en los #[b artículos 5 al 10 de la Resolución 068167 de 2020], ya que de ellos depende la aprobación o rechazo del certificado.
+          p.mb-0(data-aos="fade-down") Para obtener la certificación del ICA, es fundamental cumplir con los protocolos descritos en los #[b artículos 5 al 10 de la Resolución 068167 de 2020], ya que de ellos depende la aprobación o rechazo del certificado.
     .row.mb-4
-      .col-auto
+      .col-auto(data-aos="fade-down")
         .py-2.px-3.bg-c17
           p.mb-0 #[b Protocolos en Buenas Prácticas Ganaderas (BPG)]
-    p.mb-4 Las BPG, como estrategia de calidad en la producción primaria, deben cumplir con ciertos lineamientos establecidos por la entidad certificadora. Los protocolos incluyen los siguientes aspectos:
+    p.mb-4(data-aos="fade-right") Las BPG, como estrategia de calidad en la producción primaria, deben cumplir con ciertos lineamientos establecidos por la entidad certificadora. Los protocolos incluyen los siguientes aspectos:
     .row.bg-c40.mb-4
       .col-12
         .px-5
-          .row.justify-content-center
+          .row.justify-content-center(data-aos="fade-right")
             .col-10.col-md-6.col-lg-3.mb-4
               .p-3.bg-c5.h-100
                 .row.align-items-center
@@ -113,7 +113,7 @@
                   .col-md
                     p.mb-0 #[b Manejo medioambiental de residuos]
           .row.mb-4
-            .col-lg-7.mb-4.mb-lg-0
+            .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
               p Para la certificación, el ICA realiza una #[b visita técnica] en la que evalúa el cumplimiento de estos requisitos. En este proceso se revisa:
               ul.lista-ul.mb-0
                 li.d-flex
@@ -140,15 +140,15 @@
                   i.fas.fa-arrow-circle-right
                   |
                   p.mb-0 La inscripción del predio en los registros oficiales.
-            .col-lg-5
+            .col-lg-5(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema3/img3.png', alt='', style='width: 360px').m-auto
-          p.mb-0 A continuación, se presenta una lista de las enfermedades más relevantes en la ganadería bovina, con sus características principales.
+          p.mb-0(data-aos="fade-down") A continuación, se presenta una lista de las enfermedades más relevantes en la ganadería bovina, con sus características principales.
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(darta-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img4.png', alt='', style='width: 390px').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Brucelosis bovina")
             .col-12
@@ -182,7 +182,7 @@
                     img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
                 .col
                   h3.mb-0 Clasificación de predios en certificación BPG
-          p.mb-4 Para que un predio sea certificado debe cumplir con ciertos criterios de evaluación:
+          p.mb-4(data-aos="fade-right") Para que un predio sea certificado debe cumplir con ciertos criterios de evaluación:
           .row.align-items-center.mb-4
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               figure
