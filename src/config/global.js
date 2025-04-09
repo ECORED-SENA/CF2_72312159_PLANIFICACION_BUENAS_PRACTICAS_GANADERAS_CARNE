@@ -74,12 +74,6 @@ export default {
         titulo: 'Gestión documental: concepto y técnicas',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Comunicación y gestión de personal',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {
