@@ -59,6 +59,7 @@
           .col
             h3.mb-0 Comunicación y gestión de personal
     p.mb-5 Aunque la comunicación y la gestión de personal son procesos distintos, están estrechamente vinculados dentro del sector ganadero.
+    p Hola.
 
 </template>
 
