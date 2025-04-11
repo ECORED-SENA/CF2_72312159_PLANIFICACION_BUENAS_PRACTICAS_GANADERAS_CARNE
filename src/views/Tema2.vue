@@ -342,7 +342,7 @@
               img(src="@/assets/curso/tema2/img8.png", alt="", style="width: 500px").m-auto
           .col-lg-6
             p #[b Registro sanitario de predio pecuario]
-            p.mb-0 La información base para el Registro Sanitario de Predio Pecuario está trazada de los reportes de los ciclos de vacunación positivos (animales vacunados y los soportes de estas fechas de vacunación). Para los predios ubicados en la Zona Libre con Vacunación, es necesario habilitar la expedición de las Guías Sanitarias de movilización interna. Los predios ubicados en la zona libre sin vacunación deben presentar la información de identificación de los animales, además de los datos sanitarios de zoonosis que se encuentran en el predio y su seguimiento en cada ciclo.
+            p.mb-0 La información base para el registro sanitario de predio pecuario está trazada de los reportes de los ciclos de vacunación positivos (animales vacunados y los soportes de estas fechas de vacunación). Para los predios ubicados en la zona libre con vacunación, es necesario habilitar la expedición de las guías sanitarias de movilización interna. Los predios ubicados en la zona libre sin vacunación deben presentar la información de identificación de los animales, además de los datos sanitarios de zoonosis que se encuentran en el predio y su seguimiento en cada ciclo.
       .p-4.p-lg-5(titulo="Habilitar la expedición de las guías sanitarias de movilización interna")
         .row.justify-content-center.align-items-center
           .col-lg-5.mb-4.mb-lg-0
@@ -350,12 +350,12 @@
               img(src="@/assets/curso/tema2/img9.png", alt="", style="width: 500px").m-auto
           .col-lg-6
             p #[b Habilitar la expedición de las guías sanitarias de movilización interna]
-            p Los propietarios ubicados en la zona libre con vacunación deben presentar la Forma 3-101 reglamentada con los datos actualizados del predio y los animales.
+            p Los propietarios ubicados en la zona libre con vacunación deben presentar la forma 3-101 reglamentada con los datos actualizados del predio y los animales.
             ul.lista-ul.mb-0
               li.d-flex
                 i.fas.fa-arrow-circle-right
                 |
-                p.mb-0 Presentar los soportes y registros únicos de vacunación contra Fiebre Aftosa.
+                p.mb-0 Presentar los soportes y registros únicos de vacunación contra fiebre aftosa.
               li.d-flex
                 i.fas.fa-arrow-circle-right
                 |
@@ -367,7 +367,7 @@
               li.d-flex
                 i.fas.fa-arrow-circle-right
                 |
-                p.mb-0 Todo propietario que requiera movilizar animales debe diligenciar la Forma 3-101 con la información actualizada de los animales.
+                p.mb-0 Todo propietario que requiera movilizar animales debe diligenciar la forma 3-101 con la información actualizada de los animales.
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
@@ -390,19 +390,19 @@
                       li.d-flex
                         i.fas.fa-arrow-circle-right
                         |
-                        p.mb-0 Número de identificación: Código o chip del animal.
+                        p.mb-0 Número de identificación: código o chip del animal.
                       li.d-flex
                         i.fas.fa-arrow-circle-right
                         |
-                        p.mb-0 Raza: Especificación genética.
+                        p.mb-0 Raza: especificación genética.
                       li.d-flex
                         i.fas.fa-arrow-circle-right
                         |
-                        p.mb-0 Sexo: Macho o hembra.
+                        p.mb-0 Sexo: macho o hembra.
                       li.d-flex
                         i.fas.fa-arrow-circle-right
                         |
-                        p.mb-0 Fecha de nacimiento: Para determinar la edad del animal.
+                        p.mb-0 Fecha de nacimiento: para determinar la edad del animal.
                   .col-lg-5
                     figure
                       img(src="@/assets/curso/tema2/img10.png", alt="", style="width: 500px").m-auto
@@ -514,7 +514,7 @@
                     figure
                       img(src="@/assets/curso/tema2/img15.png", alt="", style="width: 500px").m-auto
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      p.mb-0 #[b Figura 1.] Formato de Registro de Aplicación de Medicamentos en Ganadería
+      p.mb-0 #[b Figura 1.] Formato de registro de aplicación de medicamentos en ganadería
     figure(data-aos="fade-left").mb-4
       img(src='@/assets/curso/tema2/img5.svg', alt='Formato de registro para la aplicación de medicamentos, vitaminas y vermífugos en ganadería, con espacios para datos de finca, animal, producto y administración.', style='width: 1200px').m-auto
     .row.justify-content-center

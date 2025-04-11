@@ -86,7 +86,7 @@
               img(src='@/assets/curso/tema1/img2.svg', alt='', style='width: 60px')
           .col
             h3.mb-0 Responsabilidades del producto ganadero
-    p.mb-4(data-aos="fade-right") El productor debe garantizar la seguridad alimentaria, asegurando que los productos no representen riesgos parala salud en las distintas etapas de comercialización. Para ello, en Colombia existen entidades encargadas de la regulación y supervisión de las BPG:
+    p.mb-4(data-aos="fade-right") El productor debe garantizar la seguridad alimentaria, asegurando que los productos no representen riesgos para la salud en las distintas etapas de comercialización. Para ello, en Colombia existen entidades encargadas de la regulación y supervisión de las BPG:
     .row.bg-c11
       .col-12
         .p-5
@@ -484,7 +484,7 @@
     p.mb-4(data-aos="fade-right") Las metodologías clave utilizadas en las Buenas Prácticas Ganaderas (BPG) son fundamentales para organizar y optimizar la producción ganadera. El siguiente video explica cómo se aplican estas metodologías a lo largo del proceso productivo, destacando las fases esenciales que garantizan una gestión eficiente y alineada con la normativa vigente.
     figure.mb-5
       .video(data-aos="fade-right")
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=vGNWclBzJhXFu9s1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lAkr8vFHcNo?si=w0Ravn0fvkYV7vBd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center

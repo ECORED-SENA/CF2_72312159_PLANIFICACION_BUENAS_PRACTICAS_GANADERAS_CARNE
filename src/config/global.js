@@ -301,9 +301,10 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernandez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario del Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',

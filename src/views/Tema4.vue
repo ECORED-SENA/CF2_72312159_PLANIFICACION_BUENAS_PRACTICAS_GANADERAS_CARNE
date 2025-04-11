@@ -22,7 +22,7 @@
                       img(src="@/assets/curso/tema4/img1.png", alt="", style="width: 500px").m-auto
                 .row.justify-content-center.align-items-center
                   .col-lg-5.mb-4.mb-lg-0
-                    p #[b Funciones en la gestión documenta]
+                    p #[b Funciones en la gestión documental]
                     ul.lista-ul.mb-0
                       li.d-flex
                         i.fas.fa-arrow-circle-right
@@ -90,7 +90,7 @@
                     li.d-flex
                       i.fas.fa-arrow-circle-right
                       |
-                      p.mb-0 Manejo de las Buenas Prácticas Ganaderas.
+                      p.mb-0 Manejo de las buenas prácticas ganaderas.
         .row
           .col-12(data-aos="fade-right")
             .p-4.bg-c43

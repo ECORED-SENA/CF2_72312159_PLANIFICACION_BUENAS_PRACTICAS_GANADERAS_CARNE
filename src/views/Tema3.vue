@@ -10,7 +10,7 @@
       .col-12
         .px-5
           p(data-aos="fade-down") Los protocolos de bioseguridad ganadera son fundamentales porque establecen una orientación clara sobre las actividades necesarias para la crianza, producción, mantenimiento y exportación de productos pecuarios. En Colombia, los estándares productivos en el sector ganadero están regulados por normativas específicas que garantizan la calidad e inocuidad del producto final. 
-          p.mb-5(data-aos="fade-right") La normativas clave en bioseguridad ganadera es:
+          p.mb-5(data-aos="fade-right") La clave en bioseguridad ganadera es:
           .row.justify-content-center.mb-5
             .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
               .tarjeta-avatar
@@ -197,7 +197,7 @@
                     .col-auto
                       .py-2.px-3.bg-c14
                         p.text-center.mb-0 #[b Certificable]
-                  p.text-center.mb-0 Cumple con el 100% de los criterios fundamentales, al menos el 80% de los criterios mayores y el 60% de los menores. Se expide el Certificado de BPG.
+                  p.text-center.mb-0 Cumple con el 100% de los criterios fundamentales, al menos el 80% de los criterios mayores y el 60% de los menores. Se expide el certificado de BPG.
                 .tarjeta.bg-c13.p-4
                   .row.justify-content-center.mb-3
                     .col-6
