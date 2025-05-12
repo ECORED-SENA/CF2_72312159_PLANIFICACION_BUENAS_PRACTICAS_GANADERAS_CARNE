@@ -1,1 +1,1 @@
-module.exports = 'Principios de buenas prácticas en ganadería bovina de carne'
+module.exports = 'Implementación de BPG en bovinos de carne'

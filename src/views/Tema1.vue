@@ -254,7 +254,7 @@
     #t_1_3
     .titulo-segundo.color-acento-contenido
       h2 1.3 Metodologías de desarrollo y programación
-    p.mb-5(data-aos="fade-right") En la implementación de Buenas Prácticas Ganaderas (BPG), es fundamental contar con metodologías que permitan evaluar y controlar los procesos. Una de las herramientas más utilizadas en auditorías de calidad es la #[b lista de chequeo].
+    p.mb-5(data-aos="fade-right") La metodología para el desarrollo y programación de las Buenas Prácticas Ganaderas (BPG) en la producción de carne bovina se fundamenta en un enfoque técnico, gradual y participativo, orientado a garantizar la sostenibilidad, la inocuidad del producto y el bienestar animal. El proceso comienza con un diagnóstico integral del sistema ganadero, en el que se identifican las condiciones actuales de manejo, sanidad, alimentación, uso del suelo y aspectos ambientales. Con base en este análisis, se priorizan las prácticas más relevantes y se diseña un plan de acción que incluye objetivos claros, cronogramas, responsables y recursos necesarios para su implementación. La capacitación del personal y la participación activa de los productores resultan esenciales para asegurar la adecuada aplicación de las prácticas. Finalmente, se establece un sistema de monitoreo y evaluación continua que permite ajustar y perfeccionar las acciones conforme a los resultados obtenidos, asegurando un proceso dinámico, adaptable y enfocado en una ganadería más responsable, competitiva y de alto desempeño.
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center

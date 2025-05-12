@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Principios de buenas prácticas en ganadería bovina de carne',
+    Name: 'Implementación de BPG en bovinos de carne',
     Description:
       'El componente formativo aborda la implementación de Buenas Prácticas Ganaderas (BPG) en la producción de carne bovina, destacando aspectos como bienestar animal, bioseguridad, trazabilidad y sostenibilidad. Describe metodologías, cronogramas, protocolos y registros necesarios para garantizar la calidad e inocuidad del producto. Además, presenta normativas vigentes, gestión documental y estrategias de evaluación para la certificación ganadera.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -41,12 +41,12 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Objetivos',
+            titulo: 'Objetivos del plan de BPG',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Cronogramas',
+            titulo: 'Cronograma de Implementación',
             hash: 't_1_2',
           },
           {
@@ -59,7 +59,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Concepto, procedimiento y metodología',
+        titulo: 'Control de la implementación de Buenas Prácticas Ganaderas',
         desarrolloContenidos: true,
       },
       {
@@ -67,12 +67,13 @@ export default {
         numero: '3',
         titulo: 'Protocolos y registros: concepto, diseños y modelos',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema4',
-        numero: '4',
-        titulo: 'Gestión documental: concepto y técnicas',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Protocolos',
+            hash: 't_3_1',
+          },
+        ],
       },
     ],
     subMenu: [
