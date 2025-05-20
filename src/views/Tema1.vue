@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Plan de Implementación de BPG
+      h1 Plan de Implementación de Buenas Prácticas Ganaderas
     p(data-aos="fade-down") Las Buenas Prácticas Ganaderas (BPG) son un conjunto de procedimientos y normativas que garantizan una producción pecuaria segura, sostenible y controlada. Para el 2025, estas prácticas han evolucionado con el uso de tecnología, digitalización de datos y regulaciones internacionales que refuerzan su aplicación en la producción primaria.
     .row.mb-4
       .col-12(data-aos="fade-right")
@@ -117,7 +117,7 @@
     Separador
     #t_1_1
     .titulo-segundo.color-acento-contenido
-      h2 1.1 Objetivos del plan de BPG
+      h2 1.1 Objetivos del plan de Buenas Prácticas Ganaderas
     .row.bg-c12
       .col-12
         .px-5
@@ -421,7 +421,7 @@
                 li.d-flex
                   i.fas.fa-arrow-circle-right
                   |
-                  p.mb-0 MIP.
+                  p.mb-0 MIP (Manejo Integrado de Plagas).
                 li.d-flex
                   i.fas.fa-arrow-circle-right
                   |

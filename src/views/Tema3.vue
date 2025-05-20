@@ -209,7 +209,6 @@
             figure
               img(src="@/assets/curso/tema2/img8.png", alt="", style="width: 500px").m-auto
           .col-lg-6
-            p #[b Registro sanitario de predio pecuario]
             p.mb-0 La información base para el registro sanitario de predio pecuario está trazada de los reportes de los ciclos de vacunación positivos (animales vacunados y los soportes de estas fechas de vacunación). Para los predios ubicados en la zona libre con vacunación, es necesario habilitar la expedición de las guías sanitarias de movilización interna. Los predios ubicados en la zona libre sin vacunación deben presentar la información de identificación de los animales, además de los datos sanitarios de zoonosis que se encuentran en el predio y su seguimiento en cada ciclo.
       .p-4.p-lg-5(titulo="Habilitar la expedición de las guías sanitarias de movilización interna")
         .row.justify-content-center.align-items-center
@@ -217,7 +216,6 @@
             figure
               img(src="@/assets/curso/tema2/img9.png", alt="", style="width: 500px").m-auto
           .col-lg-6
-            p #[b Habilitar la expedición de las guías sanitarias de movilización interna]
             p Los propietarios ubicados en la zona libre con vacunación deben presentar la forma 3-101 reglamentada con los datos actualizados del predio y los animales.
             ul.lista-ul.mb-0
               li.d-flex

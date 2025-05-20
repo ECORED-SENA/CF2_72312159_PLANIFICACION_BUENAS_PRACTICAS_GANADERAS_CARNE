@@ -36,12 +36,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Plan de Implementación de BPG',
+        titulo: 'Plan de Implementación de Buenas Prácticas Ganaderas',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Objetivos del plan de BPG',
+            titulo: 'Objetivos del plan de Buenas Prácticas Ganaderas',
             hash: 't_1_1',
           },
           {

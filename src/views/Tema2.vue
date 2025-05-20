@@ -32,7 +32,7 @@
           img(src='@/assets/curso/tema2/img1.svg', alt='', style='width: 100px').m-auto
       .col-md-9(data-aos="fade-left")
         .p-4.bg-c6
-          p.mb-0 A continuación, se presentan los aspectos generales relacionados con procedimientos, procesos y registros.
+          p.mb-0 A continuación, se presentan los aspectos generales relacionados con procedimientos, procesos y entidades responsables.
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
